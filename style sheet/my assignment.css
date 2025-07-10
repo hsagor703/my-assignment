@@ -1,5 +1,4 @@
 /* Raleway and inter google font */
-
 .raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -11,3 +10,55 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* navbar section start here  */
+.navbar-section{
+    background-image: url("/Assets/Hero-bg.png");
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 158px;
+}
+.nav-logo{
+    margin: 50px 0 50px 150px;
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.nav-btn{
+    margin: 51.5px 150px 51.5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #ffffff;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+.nav-details{
+    text-align: center;
+}
+.nav-description{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 37px;
+}
+.nav-section-btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #ffffff;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 152px;
+}
+/* navbar section ends here  */
