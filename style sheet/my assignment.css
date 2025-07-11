@@ -12,14 +12,24 @@
 }
 
 body{
+    margin: 0 auto;
+    background-color: rgb(96%, 97%, 100%);
+}
+
+main{
     max-width: 1440px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* navbar section start here  */
 .navbar-section{
     background-image: url("/Assets/Hero-bg.png");
+    
+}
+
+.nav-body{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .nav-header{
     display: flex;
@@ -27,20 +37,20 @@ body{
     margin-bottom: 158px;
 }
 .nav-logo{
-    margin: 50px 0 50px 150px;
+    margin: 50px 0 50px 0;
     font-size: 34px;
     font-weight: 900;
     color: #4E47FF;
 }
 .nav-btn{
-    margin: 51.5px 150px 51.5px 0;
+    margin: 51.5px 0 51.5px 0;
     font-size: 16px;
     font-weight: bold;
     background-color: #4E47FF;
     color: #ffffff;
     border: none;
-    padding: 12px 36px;
     width: 132px;
+    max-height: 48px;
     border-radius: 10px;
 }
 .nav-details{
@@ -70,6 +80,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.action-body{
+    padding-bottom: 60px;
 }
 
 .action-title{
@@ -148,3 +162,90 @@ body{
 
 }
 /* user section ends here  */
+
+/* review section start here  */
+/* .review-section{
+    background-color: #FFB805;
+    margin-bottom: 137px;
+} */
+
+.rating-body{
+    display: flex;
+}
+
+.review-heading{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+
+
+.rating-cards{
+}
+
+/* .review-item{
+    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(5, 43, 114, 0.5);
+    border-radius: 14px;
+    padding: 24px;
+    max-width: 366.67px;
+} */
+
+/* 
+.fa-star{
+    color: #FFB805;
+}
+.rating-title{
+    font-weight: bold;
+    color: #1E1E1E;
+    font-size: 22px;
+}
+.rating-sub-title{
+    font-size: 18px;
+    color: #1E1E1E;
+}
+.review-holder-img{
+    border-radius: 50%;
+}
+.rating-holder-details{
+    font-size: 20px;
+    color: #757575;
+}
+.rating-date{
+    color: #B3B3B3;
+} */
+
+/* review section ends here  */
+
+/* ready section start here  */
+.ready-section{
+    margin-bottom: 92px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 71px 150px;
+}
+.ready-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.ready-sub-title{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ready-button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+}
+.ready-img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+/* ready section ends here  */
