@@ -21,6 +21,15 @@ main{
     margin: 0 auto;
 }
 
+.btn:hover{
+    transition: 2.5s;
+    background-color: rgb(4, 97, 104);
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+    font-size: 1.2rem;
+    width: 250px;
+}
+
 /* navbar section start here  */
 .navbar-section{
     background-image: url("/Assets/Hero-bg.png");
@@ -249,3 +258,90 @@ main{
     margin-top: 20px;
 }
 /* ready section ends here  */
+
+/* get section start here  */
+.get-section{
+    margin-bottom: 104px;
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0 71px 0;
+}
+.get-heading{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+.get-form {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.get-form input{
+    padding: 20px 32px;
+    border: none;
+    width: 497px;
+    border-radius: 10px;
+}
+.get-form textarea{
+    padding: 20px 32px;
+    border: none;
+    width: 497px;
+    border-radius: 10px;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+ input::placeholder{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+ }
+.get-btn{
+    padding: 20px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: #4E47FF;
+    margin-top: 19px;
+}
+
+
+/* get section ends here  */
+
+/* footer section start here  */
+.footer-section{
+    text-align: center;
+    margin: 104px 0 104px 0;
+    
+}
+.footer-head{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    line-height: 20px;
+}
+.footer-description{
+    font-size: 22px;
+    color: #8987A1;
+}
+.footer-link{
+    font-size: 22px;
+}
+
+.footer-link a{
+    text-decoration: none;
+    padding: 20px;
+    color: #8987A1;
+
+}
+/* footer section ends here  */
